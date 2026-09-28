@@ -1,0 +1,15 @@
+{
+  "originHash" : "4ea5513cec7c436d3b162e08342f8353e58ed087003717b3f429e2f7069f65c7",
+  "pins" : [
+    {
+      "identity" : "hijricalendar-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/ahmedshoeib/HijriCalendar-iOS.git",
+      "state" : {
+        "revision" : "9ae5a2dc360c275640cc79bf440e38d856b8049a",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 3
+}
