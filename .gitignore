@@ -1,0 +1,49 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Xcode build output
+build/
+DerivedData/
+*.xcarchive
+*.xcresult
+*.dSYM
+*.dSYM.zip
+
+# Xcode user-specific data
+xcuserdata/
+*.xcuserstate
+*.xcsettings
+*.xccheckout
+*.xcscmblueprint
+*.moved-aside
+
+# Local schemes. Shared schemes under xcshareddata remain tracked.
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Local configuration and signing credentials
+.env
+.env.*
+!.env.example
+*.mobileprovision
+*.provisionprofile
+*.p12
+*.cer
+
+# Coverage, logs, and temporary files
+*.profraw
+*.profdata
+*.log
+*.tmp
+*.swp
+*~

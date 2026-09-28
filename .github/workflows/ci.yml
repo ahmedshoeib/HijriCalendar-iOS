@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test-and-build:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Test calendar engine
+        run: swift test
+
+      - name: Build SwiftUI example app
+        run: |
+          xcodebuild \
+            -project Examples/SwiftUIDemo/SwiftUIDemo.xcodeproj \
+            -scheme SwiftUIDemo \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath .build/SwiftUIDemoDerivedData \
+            CODE_SIGNING_ALLOWED=NO \
+            build
+
+      - name: Build UIKit example app
+        run: |
+          xcodebuild \
+            -project Examples/UIKitDemo/UIKitDemo.xcodeproj \
+            -scheme UIKitDemo \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath .build/UIKitDemoDerivedData \
+            CODE_SIGNING_ALLOWED=NO \
+            build
