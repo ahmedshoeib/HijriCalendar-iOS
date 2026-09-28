@@ -2,7 +2,7 @@
 
 All notable changes will be documented in this file. This project follows Semantic Versioning.
 
-## Unreleased
+## 1.0.0 - 2026-09-28
 
 - Add a Foundation date engine supporting Umm al-Qura, Islamic, Civil, and Tabular systems with a six-week month grid.
 - Add single, multiple, range, and read-only selection modes.

@@ -5,7 +5,7 @@ This folder contains two complete, runnable iOS projects:
 - `SwiftUIDemo/SwiftUIDemo.xcodeproj` demonstrates the binding and modifier APIs.
 - `UIKitDemo/UIKitDemo.xcodeproj` demonstrates delegates, data sources, and programmatic Auto Layout.
 
-Both projects use the package through a local Swift Package reference to the repository root. Open either `.xcodeproj`, choose an iPhone simulator or device, and run the app. No package URL or external dependency download is required.
+Both projects resolve `HijriCalendar-iOS` from GitHub using Swift Package Manager, with an Up to Next Major requirement starting at `1.0.0`. Open either `.xcodeproj`, allow Xcode to resolve packages, choose an iPhone simulator or device, and run the app.
 
 The demos cover all four Hijri calculation systems, all four selection modes, runtime English/Arabic switching, automatic and forced LTR/RTL layouts, date bounds, first weekday, adjacent dates, navigation controls, themes, locale-aware padded day labels, event decorations, disabled dates, callbacks, and programmatic month navigation.
 

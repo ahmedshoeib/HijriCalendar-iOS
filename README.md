@@ -22,7 +22,7 @@ A Swift Package for presenting and selecting Hijri dates in SwiftUI and UIKit. B
 - [SwiftUI demo](Examples/SwiftUIDemo/SwiftUIDemo.xcodeproj) exercises bindings, modifiers, themes, language and direction overrides, calculation systems, official month starts, selection modes, bounds, events, and custom labels.
 - [UIKit demo](Examples/UIKitDemo/UIKitDemo.xcodeproj) exercises delegates, data sources, appearance, runtime configuration, calculation systems, official month starts, Auto Layout, and programmatic navigation.
 
-Each project references this package locally. Open either `.xcodeproj` and run it without changing a package URL. See [Examples/README.md](Examples/README.md) for details.
+Each project resolves version `1.0.0` or later in the `1.x` series directly from this GitHub repository. Open either `.xcodeproj`, let Xcode resolve packages, and run it. See [Examples/README.md](Examples/README.md) for details.
 
 ## Installation
 
